@@ -7,6 +7,9 @@ echo "remoteip 10.100.10.2-100" >> /etc/pptpd.conf
 echo "ms-dns 8.8.8.8" >> /etc/ppp/pptpd-options
 echo "ms-dns 8.8.4.4" >> /etc/ppp/pptpd-options
 echo "guestv1 pptpd guestv1 *" >> /etc/ppp/chap-secrets
+echo "guestv2 pptpd guestv2 *" >> /etc/ppp/chap-secrets
+echo "guestv3 pptpd guestv3 *" >> /etc/ppp/chap-secrets
+echo "guestv4 pptpd guestv4 *" >> /etc/ppp/chap-secrets
 sudo /etc/init.d/pptpd restart
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 sysctl -p
