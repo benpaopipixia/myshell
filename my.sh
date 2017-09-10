@@ -270,7 +270,7 @@ EOF
 # Specify IPsec PSK
 conf_bk "/etc/ipsec.secrets"
 cat > /etc/ipsec.secrets <<EOF
-%any  %any  : PSK "123"
+%any  %any  : PSK "899pa"
 EOF
 
 # Create xl2tpd config
