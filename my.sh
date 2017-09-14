@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo ufw disable
 sudo service ufw restart
+sudo apt-get update 
 sudo apt-get install -y pptpd
 echo "localip 10.100.10.1" >> /etc/pptpd.conf
 echo "remoteip 10.100.10.2-100" >> /etc/pptpd.conf
