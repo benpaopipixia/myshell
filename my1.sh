@@ -312,7 +312,7 @@ conf_bk "/etc/ppp/chap-secrets"
 cat > /etc/ppp/chap-secrets <<EOF
 # Secrets for authentication using CHAP
 # client  server  secret  IP addresses
-"123" l2tpd "123" *
+"899" l2tpd "899" *
 EOF
 
 conf_bk "/etc/ipsec.d/passwd"
