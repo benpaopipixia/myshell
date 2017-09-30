@@ -6,7 +6,7 @@ echo "localip 10.100.10.1" >> /etc/pptpd.conf
 echo "remoteip 10.100.10.2-100" >> /etc/pptpd.conf
 echo "ms-dns 8.8.8.8" >> /etc/ppp/pptpd-options
 echo "ms-dns 8.8.4.4" >> /etc/ppp/pptpd-options
-echo "899pa pptpd 899pa *" >> /etc/ppp/chap-secrets
+echo "16888 pptpd 16888 *" >> /etc/ppp/chap-secrets
 sudo /etc/init.d/pptpd restart
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 sysctl -p
