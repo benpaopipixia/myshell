@@ -270,7 +270,7 @@ EOF
 # Specify IPsec PSK
 conf_bk "/etc/ipsec.secrets"
 cat > /etc/ipsec.secrets <<EOF
-%any  %any  : PSK "19899pa"
+%any  %any  : PSK "66dashun899pa"
 EOF
 
 # Create xl2tpd config
@@ -312,7 +312,7 @@ conf_bk "/etc/ppp/chap-secrets"
 cat > /etc/ppp/chap-secrets <<EOF
 # Secrets for authentication using CHAP
 # client  server  secret  IP addresses
-"123pa" l2tpd "123pa" *
+"899pingan" l2tpd "899pingan" *
 EOF
 
 conf_bk "/etc/ipsec.d/passwd"
